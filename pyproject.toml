@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "autogent-test"
+version = "0.1.0"
+description = ""
+authors = ["johnsonafool <johnsonafool@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+pyautogen = {extras = ["teachable"], version = "^0.1.14"}
+beautifulsoup4 = "^4.12.2"
+langchain = "^0.0.337"
+pymemgpt = "^0.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
